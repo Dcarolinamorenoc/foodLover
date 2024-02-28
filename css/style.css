@@ -1,1 +1,66 @@
 @import url(style.css);
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    border: 1px solid purple;
+    flex-direction: row;
+    height: 150px;
+    align-items: center;
+}
+
+
+.caja1{
+    border: 1px solid red;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin: 100px;
+    font-family: Roboto Slab;
+
+}
+
+.caja2 {
+    border: 1px solid blue;
+    width: 6%;
+    margin: 200px;
+    height: 100px;
+}
+
+.caja3 {
+    border: 1px solid green;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin: 80px;
+
+}
+
+.item:hover{
+    text-decoration: underline;
+    transition: 1.2s ;
+    cursor: pointer;
+    }
+
+.roboto-slab, .caja1 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+      
+.caja1 .item {
+    margin-right: 20px;
+    text-decoration: none;
+    }
+
+.caja1 .item {
+    margin-right: 20px;
+    text-decoration: none;
+}
+    
