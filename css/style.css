@@ -256,3 +256,15 @@
     background: #17171e;
     border: 1px solid greenyellow
 }
+
+.x{
+    box-sizing: content-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.x img{
+    padding: 0px;
+    margin: 25px;
+}
