@@ -112,7 +112,7 @@ body{
     flex-direction: row;
     max-width: 100%;
     width: 100%;
-    height: 680px;
+    height: 600px;
     align-items: center;
     justify-content: space-around;
     background: #323239e3;
@@ -248,16 +248,18 @@ body{
 .comida{
     display: flex;
     width: 100%;
-    height: 1000vh;
+    height: 830vh;
     flex-direction: column;
     background: #17171e;
 }
 
 .pie{
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    max-width: 100%;
+    height: 750px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .imagenes1{
@@ -267,9 +269,9 @@ body{
 }
 
 .imagenes1 img{
-    width: 470px;
-    height: 500px;
-    border: none;
+    display: flex;
+    width: 650px;
+    height: 600px;
 }
 
 .info2{
@@ -291,7 +293,7 @@ body{
 .info2 p{
     margin-top: 45px;
     width: 450px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -303,7 +305,7 @@ body{
     display: flex;
     max-width: 100%;
     width: 100%;
-    height: 1500px;
+    height: 1800px;
     flex-direction: column;
     background-image: url("../storage/img/placeYourImageHereFood.png");
     background-size: cover;
@@ -325,8 +327,8 @@ body{
 }
 
 .x img{
-    width: 400px;
-    height: 700px;
+    width: 500px;
+    height: 750px;
     position: relative;
     margin-top: -120px;
 }
@@ -371,18 +373,25 @@ body{
     display: flex;
     width: 100%;
     justify-content: end;
+    margin-top: -70px;
 }
 
 .imagenes3 img{
     display: flex;
     margin-top: 20px;
-    width: 750px;
+    width: 900px;
 }
 
 .imagenes4{
     display: flex;
-    width: 90vh;
-    margin-top: -580px;
+    height: 600px;
+    margin-top: -680px;
+}
+
+.imagenes4 img{
+    display: flex;
+    margin-top: 20px;
+    width: 550px;
 }
 
 .rebelde{
@@ -467,44 +476,58 @@ body{
     background-repeat: no-repeat;
 }
 
-.info5{
+.idk {
+    width: 100%;
+    height: 1000px;
+    background-image: url("../storage/img/placeYourImageHereOur0.png");
+    background-size: cover;
+    background-position: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-content: center;
-    border: 8px solid #e58f00;
-    width: 45%;
-    height: 75vh;
     align-items: center;
-    margin-left: 75px;
-    color: #fff;
-    background: #17171ec2;
+    flex-direction: column;
 }
 
-.info5 h1{
+.cuadro {
     display: flex;
+    border: 10px solid #e58f00;
     justify-content: center;
-    align-content: center;
-    font-size: 35px;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    color: #fff;
+    align-items: center;
+    flex-direction: column; 
+    width: 760px;
+    height: 620px;
+    background-color: rgba(23, 23, 30, 0.8);
+}
+.prim {
+    display: flex;
+    width: 550px;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
 }
 
-.info5 p{
+.sec {
     display: flex;
+    width: 550px;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    height: 400px;
+    text-align: center;
     justify-content: center;
-    align-content: center;
-    width: 90%;
-    font-size: 25px;
-    margin-top: 30px;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    color: #fff;
+}
+
+.prim h1 {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.sec h3 {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .menu{
