@@ -140,6 +140,8 @@ body{
 .text{
     display: flex;
     height: 150px;
+
+    width: 670px;
 }
 
 .boton{
@@ -150,7 +152,7 @@ body{
     align-items: center;
     height: 70px;
     font-family: Roboto Slab;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #e58f00;
     border-radius: 1vh;
 }
@@ -187,6 +189,13 @@ body{
     font-weight: 700;
     font-style: normal;
     }  
+
+.boton .item {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}   
 
 .pie{
     display: flex;
@@ -248,7 +257,7 @@ body{
 .comida{
     display: flex;
     width: 100%;
-    height: 830vh;
+    height: 925vh;
     flex-direction: column;
     background: #17171e;
 }
@@ -343,13 +352,14 @@ body{
 .info3{
     display: flex;
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 390px;
     width: 77vh;
+    height: 500px;
 }
 
 .info3 h1{
     display: flex;
-    font-size: 38px;
+    font-size: 45px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -360,7 +370,7 @@ body{
 .info3 p{
     display: flex;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -714,10 +724,15 @@ body{
 
 .pic3{
     display: flex;
-    width: 100vh;
-    height: 100vh;
+    height: 90vh;
     margin-top: 0px;
     margin-left: 0;
+}
+
+.pic3 img{
+    display: flex;
+    width: 600px;
+    z-index: 1; 
 }
 
 .best{
@@ -734,13 +749,13 @@ body{
     flex-direction: column;
     width: 100%;
     margin-right: 300px;
-    margin-left: 30px;
+    margin-left: 120px;
 }
 .info6 h1{
     display: flex;
     width: 100%;
     margin-top: 0px;
-    font-size: 30px;
+    font-size: 50px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -751,7 +766,7 @@ body{
 .info6 p{
     display: flex;
     width: 100%;
-    font-size: 18px;
+    font-size: 25px;
     margin-top: 30px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
@@ -767,12 +782,13 @@ body{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    background-color: #323239;
 }
 
 .high{
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 .main{
